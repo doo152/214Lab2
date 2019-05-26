@@ -1,10 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Docks.aspx.cs" Inherits="_214Lab2.WebForm4" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Docks.aspx.cs" Inherits="_214Lab2.Docks" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Docks" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   
-    <div class="row align-content-center"><span class="m-4 text-center">
-        <h3>Available Docks and Slips</h3>
+   <h3>Available Docks and Slips</h3>
+    <div class="row align-content-center">
+        
+        <span class="m-4 text-center">
+        
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource0" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" DataKeyNames="ID">
             <Columns>
                 <asp:CommandField ShowSelectButton="True" />                

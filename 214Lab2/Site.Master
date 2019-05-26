@@ -14,16 +14,18 @@
     </asp:ContentPlaceHolder>
 </head>
 <body >
-    <nav  class="py-5 text-center">
+    <div class="container">
+    <nav  class="jumbotron">
        
-        <img src="inlandmarina_banner.jpg"  alt="InLand Marina Banner" />
-        <div   class="py-5 text-center"> <a href = "default.aspx"> Home </a>|<a href = "Docks.aspx">  Docks </a> |<a href = "Registration.aspx">  Registration </a> |<a href = "Contactus.aspx">  Contact Us </a></div>
+        <img src="inlandmarina_banner.jpg"  class="img-rounded img-responsive" alt="InLand Marina Banner" />
+        <div> <a href = "default.aspx"> Home </a>|<a href = "Docks.aspx">  Docks </a> |<a href = "Registration.aspx">  Registration </a> |<a href = "Contactus.aspx">  Contact Us </a></div>
        
     </nav>
     
     <main>
-    <form id="form1" runat="server"> <asp:Menu ID="Menu2" runat="server"></asp:Menu>
-        <div  class="py-5 text-center">
+    <form id="form1" runat="server" class="form-horizontal"> 
+       
+        <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"> <asp:Menu ID="Menu1" runat="server"></asp:Menu>
             </asp:ContentPlaceHolder>
         </div>
@@ -36,5 +38,6 @@
             Copyright 2019 TechCareers&copy; All Rights Reserved.
         </div>
     </footer>
+        </div>
 </body>
 </html>

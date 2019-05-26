@@ -9,6 +9,14 @@ body {
 h3 {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     color:brown;
-    font-size:26px;
+    font-size:150%;
     align-self:center;
+}
+
+.jumbotron h1 {
+    font-size:250%;
+}
+
+.container {
+    border: 1px solid #cecece;
 }

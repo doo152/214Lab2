@@ -10,7 +10,7 @@
 namespace _214Lab2 {
     
     
-    public partial class WebForm4 {
+    public partial class Docks {
         
         /// <summary>
         /// GridView1 control.
