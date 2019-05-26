@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="site.master.cs" Inherits="_214Lab2._default" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <link href="SiteCss.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body >
+    <nav  class="py-5 text-center">
+       
+        <img src="inlandmarina_banner.jpg"  alt="InLand Marina Banner" />
+        <div   class="py-5 text-center"> <a href = "default.aspx"> Home </a>|<a href = "Docks.aspx">  Docks </a> |<a href = "Registration.aspx">  Registration </a> |<a href = "Contactus.aspx">  Contact Us </a></div>
+       
+    </nav>
+    
+    <main>
+    <form id="form1" runat="server"> <asp:Menu ID="Menu2" runat="server"></asp:Menu>
+        <div  class="py-5 text-center">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"> <asp:Menu ID="Menu1" runat="server"></asp:Menu>
+            </asp:ContentPlaceHolder>
+        </div>
+   
+    </form>
+
+    </main>
+    <footer>
+        <div   class="py-5 text-right">
+            Copyright 2019 TechCareers&copy; All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>

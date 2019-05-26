@@ -1,0 +1,14 @@
+﻿.hiddencol {
+    display: none;
+}
+
+body {
+    margin: 20px;
+}
+
+h3 {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color:brown;
+    font-size:26px;
+    align-self:center;
+}
